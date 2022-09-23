@@ -30,14 +30,18 @@ namespace VariablesAndDataTypesProgram
             Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
             string exp = Console.ReadLine();
 
-            //// Ask about feedback
+            // Ask about feedback
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
             string feedback = Console.ReadLine();
 
-            //// Ask name
+            // Ask name
             Console.WriteLine("How many hours did you study today?");
             string hours = Console.ReadLine();
             byte studyhours = Convert.ToByte(num);
+
+            // End of program
+            Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
+            Console.ReadLine();
         }
     }
 }
