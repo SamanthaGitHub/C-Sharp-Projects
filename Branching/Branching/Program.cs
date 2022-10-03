@@ -46,7 +46,7 @@ namespace Branching
                 {
                     // Calculates quote
                     decimal calcQuote = volume * weight / 100;
-                    decimal roundQuote = Math.Round(calcQuote, 2);
+                    decimal roundQuote = Math.Round(calcQuote, 3);
                     Console.WriteLine("Your estimated total is: $" + roundQuote);
                     Console.ReadLine();
                 }
