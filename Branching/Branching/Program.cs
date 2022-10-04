@@ -34,15 +34,16 @@ namespace Branching
                 Console.WriteLine("Please provide package length in inches:");
                 decimal length = Convert.ToInt32(Console.ReadLine());
 
-                // volume
+                // dimension and volume
+                decimal dimension = width + length + height;
                 decimal volume = (width * height * length);
 
-                // Checks package volume
-                string volumeResult = volume > 50 ? "Your package is too big." : "Package size accepted.";
-                Console.WriteLine(volumeResult);
+                // Checks package dimension
+                string dimensionResult = dimension > 50 ? "Your package is too big." : "Package size accepted. \"Enter\" for cost to ship.";
+                Console.WriteLine(dimensionResult);
                 Console.ReadLine();
 
-                if (volume <= 50)
+                if (dimension <= 50)
                 {
                     // Calculates quote
                     decimal calcQuote = volume * weight / 100;
