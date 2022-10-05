@@ -1,0 +1,7 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\bin\Debug\DoWhileAssignment.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\bin\Debug\DoWhileAssignment.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\bin\Debug\DoWhileAssignment.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\obj\Debug\DoWhileAssignment.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\obj\Debug\DoWhileAssignment.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\obj\Debug\DoWhileAssignment.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DoWhileAssignment\DoWhileAssignment\obj\Debug\DoWhileAssignment.pdb
