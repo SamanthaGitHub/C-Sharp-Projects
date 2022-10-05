@@ -10,12 +10,15 @@ namespace DoWhileAssignment
     {
         static void Main(string[] args)
         {
+            // Animal guessing 'game'
             Console.WriteLine("Guess what animal I'm thinking of...");
             string animal = Console.ReadLine();
+            // Animal to guess is "cat"
             bool isGuessed = animal == "cat";
 
             do
             {
+                // Switch to catch different user inputs
                 switch (animal)
                 {
                     case "dog":
@@ -37,6 +40,7 @@ namespace DoWhileAssignment
             while (!isGuessed);
             Console.Read();
 
+            // Congrats after 'game' is over
             while (animal == "cat")
             {
                 Console.Clear();
