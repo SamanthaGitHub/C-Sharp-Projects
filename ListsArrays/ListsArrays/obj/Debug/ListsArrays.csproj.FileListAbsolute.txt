@@ -1,0 +1,7 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\bin\Debug\ListsArrays.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\bin\Debug\ListsArrays.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\bin\Debug\ListsArrays.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\obj\Debug\ListsArrays.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\obj\Debug\ListsArrays.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\obj\Debug\ListsArrays.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\ListsArrays\ListsArrays\obj\Debug\ListsArrays.pdb
