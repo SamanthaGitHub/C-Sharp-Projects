@@ -1,0 +1,7 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\bin\Debug\LoopsArraysStrings assignment.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\bin\Debug\LoopsArraysStrings assignment.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\bin\Debug\LoopsArraysStrings assignment.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\obj\Debug\LoopsArraysStrings assignment.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\obj\Debug\LoopsArraysStrings assignment.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\obj\Debug\LoopsArraysStrings assignment.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\LoopsArraysStrings assignment\LoopsArraysStrings assignment\obj\Debug\LoopsArraysStrings assignment.pdb
