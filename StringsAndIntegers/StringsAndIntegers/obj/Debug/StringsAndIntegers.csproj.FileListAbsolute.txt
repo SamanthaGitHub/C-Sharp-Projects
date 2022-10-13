@@ -1,0 +1,7 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\bin\Debug\StringsAndIntegers.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\bin\Debug\StringsAndIntegers.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\bin\Debug\StringsAndIntegers.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\obj\Debug\StringsAndIntegers.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\obj\Debug\StringsAndIntegers.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\obj\Debug\StringsAndIntegers.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\StringsAndIntegers\StringsAndIntegers\obj\Debug\StringsAndIntegers.pdb
