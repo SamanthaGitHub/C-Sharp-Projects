@@ -16,10 +16,14 @@ namespace LoopsArraysStrings_assignment
             Console.WriteLine("Please write a word that relates to animals.");
             string userInput = Console.ReadLine();
           
+            //appends user input to array items
+            for (int i = 0; i < animalArray.Length; i++)
+            {
+                animalArray[i] = animalArray[i] + userInput;}
+
             //prints off updated array
             for (int i = 0; i < animalArray.Length; i++)
             {
-                animalArray[i] = animalArray[i] + userInput;
                 Console.WriteLine(animalArray[i]);
             }
             Console.ReadLine();
@@ -63,12 +67,14 @@ namespace LoopsArraysStrings_assignment
             //asks user for fruit input
             Console.WriteLine("Enter a fruit to search for it in the list:");
             string fruitInput = Console.ReadLine();
-            
+
             //iterates thru list to find match and displays index if matched; else, keeps asking
+            bool found = false;
             foreach (string fruit in listOfFruits)
             {
                 if (listOfFruits.Contains(fruitInput))
                 {
+                    found = true;
                     int fruitIndex = listOfFruits.IndexOf(fruitInput);
                     Console.WriteLine(fruitIndex);
                     break;
