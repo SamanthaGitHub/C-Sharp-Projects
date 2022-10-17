@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace BlackjackGame
 {
-    class Class1
+    public class Card
     {
+        //constructor (values assigned upon creation)
+        public Card()
+        {
+            Suit = "Spades";
+            Face = "Two";
+        }
+
+        public string Suit { get; set; }
+        public string Face { get; set; }
     }
 }
