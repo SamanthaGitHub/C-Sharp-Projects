@@ -1,0 +1,6 @@
+C:\Users\saman\source\repos\MethodsAndObjectsStep292\MethodsAndObjectsStep292\bin\Debug\MethodsAndObjectsStep292.exe.config
+C:\Users\saman\source\repos\MethodsAndObjectsStep292\MethodsAndObjectsStep292\bin\Debug\MethodsAndObjectsStep292.exe
+C:\Users\saman\source\repos\MethodsAndObjectsStep292\MethodsAndObjectsStep292\bin\Debug\MethodsAndObjectsStep292.pdb
+C:\Users\saman\source\repos\MethodsAndObjectsStep292\MethodsAndObjectsStep292\obj\Debug\MethodsAndObjectsStep292.csproj.CoreCompileInputs.cache
+C:\Users\saman\source\repos\MethodsAndObjectsStep292\MethodsAndObjectsStep292\obj\Debug\MethodsAndObjectsStep292.exe
+C:\Users\saman\source\repos\MethodsAndObjectsStep292\MethodsAndObjectsStep292\obj\Debug\MethodsAndObjectsStep292.pdb
