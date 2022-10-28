@@ -1,0 +1,7 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\bin\Debug\DualParameterMethod.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\bin\Debug\DualParameterMethod.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\bin\Debug\DualParameterMethod.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\obj\Debug\DualParameterMethod.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\obj\Debug\DualParameterMethod.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\obj\Debug\DualParameterMethod.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\DualParameterMethod\DualParameterMethod\obj\Debug\DualParameterMethod.pdb
