@@ -8,7 +8,7 @@ namespace DualParameterMethod
 {
     class MyClass
     {
-        public int MyMethod(int int1, int int2 = 1)
+        public int MyMethod(int int1, int int2 = 1) //optional second parameter
         {
             int result = (int1 + 3) * int2;
             return result;
