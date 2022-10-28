@@ -1,0 +1,7 @@
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\bin\Debug\281MethodClass.exe.config
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\bin\Debug\281MethodClass.exe
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\bin\Debug\281MethodClass.pdb
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\obj\Debug\281MethodClass.csproj.AssemblyReference.cache
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\obj\Debug\281MethodClass.csproj.CoreCompileInputs.cache
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\obj\Debug\281MethodClass.exe
+C:\Users\saman\source\repos\281MethodClass\281MethodClass\obj\Debug\281MethodClass.pdb
