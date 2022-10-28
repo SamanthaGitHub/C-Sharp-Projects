@@ -1,0 +1,7 @@
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\bin\Debug\Step285ClassMethods.exe.config
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\bin\Debug\Step285ClassMethods.exe
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\bin\Debug\Step285ClassMethods.pdb
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\obj\Debug\Step285ClassMethods.csproj.AssemblyReference.cache
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\obj\Debug\Step285ClassMethods.csproj.CoreCompileInputs.cache
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\obj\Debug\Step285ClassMethods.exe
+C:\Users\saman\source\repos\Step285ClassMethods\Step285ClassMethods\obj\Debug\Step285ClassMethods.pdb
