@@ -1,0 +1,7 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\bin\Debug\Lamda.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\bin\Debug\Lamda.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\bin\Debug\Lamda.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\obj\Debug\Lamda.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\obj\Debug\Lamda.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\obj\Debug\Lamda.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\Lamda\Lamda\obj\Debug\Lamda.pdb
