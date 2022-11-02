@@ -6,17 +6,39 @@ using System.Threading.Tasks;
 
 namespace BlackjackGame
 {
-    public class Card
+    public struct Card
     {
-        //constructor (values assigned upon creation)
-        public Card()
-        {
-            //???????????????????????????????????????????
-            Suit = "Spades";
-            Face = "Two";
-        }
+        public Suit Suit { get; set; } //enum
+        public Face Face { get; set; } //enum
 
-        public string Suit { get; set; }
-        public string Face { get; set; }
+        public override string ToString() //custom ToString method
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
+    }
+
+    //emuns
+    public enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }
