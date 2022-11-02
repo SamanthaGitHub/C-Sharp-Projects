@@ -1,0 +1,10 @@
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\bin\Debug\BlackjackGame.exe.config
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\bin\Debug\BlackjackGame.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\bin\Debug\BlackjackGame.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\bin\Debug\Casino.dll
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\bin\Debug\Casino.pdb
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\obj\Debug\Blackjack.csproj.AssemblyReference.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\obj\Debug\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\obj\Debug\Blackjack.csproj.CopyComplete
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\obj\Debug\BlackjackGame.exe
+C:\Users\saman\OneDrive\Documents\GitHub\CSharp-Projects\BlackjackGame\BlackjackGame\obj\Debug\BlackjackGame.pdb

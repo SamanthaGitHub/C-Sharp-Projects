@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace BlackjackGame
+namespace Casino.BlackjackGame
 {
     public class BlackjackGame : Game, IWalkAway // ':' signifies inheritance from Game class
     {

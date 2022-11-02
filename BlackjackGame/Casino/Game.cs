@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackjackGame
+
+namespace Casino
 {
     public abstract class Game
     {

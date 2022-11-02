@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackjackGame
+namespace Casino.Interfaces
 {
     interface IWalkAway //able to be inherited as a second inheritance; always start with an 'I'
     {

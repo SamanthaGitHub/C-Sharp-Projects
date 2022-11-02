@@ -1,17 +1,21 @@
 ﻿
 using System;
+using Casino;
+using Casino.BlackjackGame;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace BlackjackGame
+namespace Blackjack //renamed from BlackjackGame to make program runnable
 {
     class Program
     {
         static void Main(string[] args)
         {
+            
+
             Console.WriteLine("Welcome to Clams Casino! Please enter your name:");
             string playerName = Console.ReadLine();
 
@@ -24,6 +28,11 @@ namespace BlackjackGame
             if (answer == "y")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid(); //Globally Unique IDentifier
+                using (StreamWriter file = new StreamWriter(@"C:\Users\saman\Desktop\BlackjackGameLog.txt", true)) //'true' appends to the file
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new BlackjackGame(); //polymorphism to inherit Game properties
                 game += player; //player added to game
                 player.isActivelyPlaying = true;
