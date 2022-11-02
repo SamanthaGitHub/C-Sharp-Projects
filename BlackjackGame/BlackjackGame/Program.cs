@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace BlackjackGame
 {
@@ -11,16 +12,16 @@ namespace BlackjackGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome! Please enter your name:");
+            Console.WriteLine("Welcome to Clams Casino! Please enter your name:");
             string playerName = Console.ReadLine();
 
-            Console.WriteLine("How much money will you be betting today?");
+            Console.Write("How much money will you be betting today?\n$");
             int bank = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Hello, {0}, would you like to join a game of Blackjack?", playerName);
+            Console.WriteLine("Hello, {0}, would you like to join a game of Blackjack? (y/n)", playerName);
             string answer = Console.ReadLine().ToLower();
 
-            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
+            if (answer == "y")
             {
                 Player player = new Player(playerName, bank);
                 Game game = new BlackjackGame(); //polymorphism to inherit Game properties

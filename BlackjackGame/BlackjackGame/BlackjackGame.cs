@@ -55,7 +55,7 @@ namespace BlackjackGame
                 }
                 Console.Write("Dealer: ");
                 Dealer.Deal(Dealer.Hand);
-                if (i == 1)
+                if (i == 1) //after two cards are dealt
                 {
                     bool blackjack = BlackjackRules.CheckForBlackjack(Dealer.Hand); //checks if dealer has blackjack
                     if (blackjack)
@@ -78,7 +78,7 @@ namespace BlackjackGame
                     {
                         Console.Write("{0} ",card.ToString()); //displays cards in player's hand
                     }
-                    Console.WriteLine("\n\nHit of Stay?");
+                    Console.WriteLine("\n\nHit or Stay?");
                     string answer = Console.ReadLine().ToLower();
                     if (answer == "stay")
                     {

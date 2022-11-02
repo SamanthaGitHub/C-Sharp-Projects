@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace BlackjackGame
 {
@@ -15,8 +16,15 @@ namespace BlackjackGame
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
-            Deck.Cards.RemoveAt(0);
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card);
+            //logs cards dealt and timestamp  to file
+            using (StreamWriter file = new StreamWriter(@"C:\Users\saman\Desktop\BlackjackGameLog.txt", true)) //'true' appends to the file
+            {
+                file.WriteLine(DateTime.Now);
+                file.WriteLine(card);
+            } //using disposes memory
+                Deck.Cards.RemoveAt(0);
         }
     }
 }
