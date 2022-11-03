@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Data.SqlClient;
 
 namespace Blackjack //renamed from BlackjackGame to make program runnable
 {
@@ -92,5 +93,23 @@ namespace Blackjack //renamed from BlackjackGame to make program runnable
             //Console.WriteLine(deck.Cards.Count);
             //Console.ReadLine();
         }
+
+        //updating database with exception catches
+        private static void UpdateDbWithException(Exception ex) //will catch all exceptions; polymorphism
+        {
+            string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BlackjackGame;Integrated Security=True;
+                                        Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;
+                                        MultiSubnetFailover=False";
+
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                (@ExceptionType, @ExceptionMessage, @TimeStamp)"; //placeholders to be sub with actual values; protects datatype of SQL injections 
+
+            using (SqlConnection connection = new SqlConnection(connectionString)) //'using' helps with managing and controlling memory
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+            }
+        }
     }
 }
+
+// you stopped at 6:40 on step 395, but rewatch video
