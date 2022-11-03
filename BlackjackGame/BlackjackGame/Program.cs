@@ -19,8 +19,15 @@ namespace Blackjack //renamed from BlackjackGame to make program runnable
             Console.WriteLine("Welcome to Clams Casino! Please enter your name:");
             string playerName = Console.ReadLine();
 
-            Console.Write("How much money will you be betting today?\n$");
-            int bank = Convert.ToInt32(Console.ReadLine());
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.Write("How much money will you be betting today ?\n$");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+            }
+
 
             Console.WriteLine("Hello, {0}, would you like to join a game of Blackjack? (y/n)", playerName);
             string answer = Console.ReadLine().ToLower();
@@ -38,7 +45,23 @@ namespace Blackjack //renamed from BlackjackGame to make program runnable
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Hands behind your back! You're outta here, ya cheater!");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Oops, an error occured. Contact your system administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    
                 }
                 game -= player;
                 Console.WriteLine("Thanks for playing!");
