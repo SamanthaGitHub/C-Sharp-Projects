@@ -10,7 +10,7 @@ using System.IO;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace Blackjack //renamed from BlackjackGame to make program runnable
+namespace Blackjack
 {
     class Program
     {
